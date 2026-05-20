@@ -1,0 +1,12 @@
+errnie:
+  level: debug
+
+environment:
+  image: ubuntu:24.04
+  exec_timeout: 10m
+  memory_bytes: 4294967296
+  nano_cpus: 2000000000
+  pids_limit: 512
+  working_dir: /workspace
+  network_mode: none
+  max_environments: 8
