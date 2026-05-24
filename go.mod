@@ -2,6 +2,10 @@ module github.com/theapemachine/alcatraz
 
 go 1.26.1
 
+replace github.com/theapemachine/errnie => ../errnie
+
+replace github.com/theapemachine/qpool => ../qpool
+
 require (
 	github.com/docker/go-sdk/container v0.1.0-alpha015
 	github.com/docker/go-sdk/image v0.1.0-alpha015
@@ -11,7 +15,7 @@ require (
 	github.com/smartystreets/goconvey v1.8.1
 	github.com/spf13/cobra v1.10.2
 	github.com/spf13/viper v1.21.0
-	github.com/theapemachine/errnie v0.0.2
+	github.com/theapemachine/errnie v1.2.0
 )
 
 require (
