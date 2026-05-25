@@ -17,7 +17,7 @@ require (
 	github.com/smartystreets/goconvey v1.8.1
 	github.com/spf13/cobra v1.10.2
 	github.com/spf13/viper v1.21.0
-	github.com/theapemachine/errnie v1.2.0
+	github.com/theapemachine/errnie v1.2.3
 )
 
 require (
