@@ -2,9 +2,11 @@ module github.com/theapemachine/alcatraz
 
 go 1.26.1
 
-replace github.com/theapemachine/errnie => ../errnie
+// replace github.com/theapemachine/errnie => ../errnie
 
-replace github.com/theapemachine/qpool => ../qpool
+// replace github.com/theapemachine/qpool => ../qpool
+
+// replace github.com/theapemachine/errnie => ../errnie
 
 require (
 	github.com/docker/go-sdk/container v0.1.0-alpha015
@@ -81,5 +83,3 @@ require (
 	golang.org/x/text v0.34.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
-
-replace github.com/theapemachine/errnie => ../errnie
